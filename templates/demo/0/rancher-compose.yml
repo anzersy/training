@@ -27,14 +27,6 @@
       default: "tongbanjie"
       required: true
       type: "string"
-   - variable: "unuse_enum"
-      description: |
-        unusable variable
-      label: "HAProxy External Port:"
-      default: "v1"
-      required: true
-      type: "enum"
-
 version: '2'
 services:
   nginx:
